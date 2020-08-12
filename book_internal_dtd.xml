@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>  
+<!DOCTYPE books [
+<!ELEMENT books (book)*>
+<!ELEMENT book (Title, Author, Genre, Copyright, Edition, Isbn, Publisher, Price)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Copyright (#PCDATA)>
+<!ELEMENT Edition (#PCDATA)>
+<!ELEMENT Isbn (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT Price (#PCDATA)> 
+]>
+
+<books> 
+	<book>
+		<title> first love </title>
+		<author> HARSHA REDDY </author>
+		<genre> Thriller </genre>
+		<copyright> 2015 </copyright>
+		<edition> First </edition>
+		<isbn> 879-908877789 </isbn>
+		<publisher> J.B.Lippincott </publisher>
+		<price> 890 </price>
+ 	</book>
+ 	<book>
+		<title> the specalist </title>
+		<author> antony grace </author>
+		<genre> Education </genre>
+		<copyright> 1989 </copyright>
+		<edition> First </edition>
+		<isbn> 9780596002312 </isbn>
+		<publisher> O'relilly </publisher>
+		<price> 240 </price>
+	</book>
+	<book>
+		<title> The marine </title>
+		<author> PAULO COEHLO </author>
+		<genre> Sci-fi </genre>
+		<copyright> 2020 </copyright>
+		<edition> First </edition>
+		<isbn> 777-04202010789 </isbn>
+		<publisher> HarperCollins </publisher>
+		<price> 250 </price>
+ 	</book>
+ 	<book>
+		<title> the chemical factory </title>
+		<author> MUNI BHAGAT </author>
+		<genre> Humour </genre>
+		<copyright> 2014 </copyright>
+		<edition> First </edition>
+		<isbn> 787654323450;</isbn>
+		<publisher> Rupa Publications </publisher>
+		<price> 897 </price>
+ 	</book>
+ 	<book>
+		<title> HOW TO GET MONEY </title>
+		<author> SABASTEON NUNK </author>
+		<genre> Mystery </genre>
+		<copyright> 1960 </copyright>
+		<edition> First </edition>
+		<isbn> 666-9087650789 </isbn>
+		<publisher>Hodder and Stoughton</publisher>
+		<price> 345 </price>
+ 	</book>
+</books>
